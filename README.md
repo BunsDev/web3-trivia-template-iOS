@@ -17,7 +17,7 @@ An aim to connect people across the world 🤳🏻 and provide them a platform t
 
 **FLUTTER WEB SCREENSHORTS**
 
-
+<img src="https://github.com/covalenthq/Covalent_Flutter_Trivia/blob/1941d884bf7893e33b19ba07ef2eb0f18e7ba95c/assets/Audience%20Advice.png?raw=true">
 
 ⭐⭐🌟⭐⭐
 
