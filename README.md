@@ -31,7 +31,7 @@ An aim to connect people across the world 🤳🏻 and provide them a platform t
 🥁Audio & Video: The ultimate test of senses. A knowledgeable and alert mind rules. Fight and make your way up! Song, Movies, Entertainment, Sounds, and many more!
 
 
-<img src="https://play-lh.googleusercontent.com/yvMUS3_tE6z5yR7onWKYq-q3ZF9j8uxdtVnRymfw7jIVR8f-DshAPy8RlpL-kWgSXIt0=w832-h470">
+<img src="https://play-lh.googleusercontent.com/yvMUS3_tE6z5yR7onWKYq-q3ZF9j8uxdtVnRymfw7jIVR8f-DshAPy8RlpL-kWgSXIt0=w832-h470" width="300px" height="150px">
 
 ## ***FEATURES*** 
 
