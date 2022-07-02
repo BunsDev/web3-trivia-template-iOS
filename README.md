@@ -17,7 +17,15 @@ An aim to connect people across the world 🤳🏻 and provide them a platform t
 
 **FLUTTER WEB SCREENSHORTS**
 
-<img src="https://github.com/covalenthq/Covalent_Flutter_Trivia/blob/1941d884bf7893e33b19ba07ef2eb0f18e7ba95c/assets/Audience%20Advice.png?raw=true">
+<img src="https://github.com/covalenthq/Covalent_Flutter_Trivia/blob/main/assets/Onboarding%20Screen%201.png?raw=true"
+     width="300px" height="180px"> <img src="https://github.com/covalenthq/Covalent_Flutter_Trivia/blob/main/assets/Onboarding%20Screen%202.png?raw=true"
+     width="300px" height="180px"> <img src="https://github.com/covalenthq/Covalent_Flutter_Trivia/blob/main/assets/Main%20Activity.png?raw=true"
+     width="300px" height="180px"> <img src="https://github.com/covalenthq/Covalent_Flutter_Trivia/blob/main/assets/Quiz%20Layout.png?raw=true"
+     width="300px" height="180px"> <img src="https://github.com/covalenthq/Covalent_Flutter_Trivia/blob/main/assets/Audience%20Advice.png?raw=true"
+     width="300px" height="180px"> <img src="https://github.com/covalenthq/Covalent_Flutter_Trivia/blob/main/assets/Expert%20Advice.png?raw=true"
+     width="300px" height="180px"> <img src="https://github.com/covalenthq/Covalent_Flutter_Trivia/blob/main/assets/Score%20Board.png?raw=true"
+     width="300px" height="180px">	
+		 
 
 ⭐⭐🌟⭐⭐
 
@@ -31,7 +39,7 @@ An aim to connect people across the world 🤳🏻 and provide them a platform t
 🥁Audio & Video: The ultimate test of senses. A knowledgeable and alert mind rules. Fight and make your way up! Song, Movies, Entertainment, Sounds, and many more!
 
 
-<img src="https://play-lh.googleusercontent.com/yvMUS3_tE6z5yR7onWKYq-q3ZF9j8uxdtVnRymfw7jIVR8f-DshAPy8RlpL-kWgSXIt0=w832-h470" width="300px" height="150px">
+<img src="https://play-lh.googleusercontent.com/yvMUS3_tE6z5yR7onWKYq-q3ZF9j8uxdtVnRymfw7jIVR8f-DshAPy8RlpL-kWgSXIt0=w832-h470">
 
 ## ***FEATURES*** 
 
@@ -58,4 +66,6 @@ Experience the fun of quizzing on Covalent Web3 Trivia!
 [Download now](https://play.google.com/store/apps/details?id=com.nbird.covalentweb3trivia) at Google Play Store
 
 >The most creative way to spend your spare time.🎯🏆 The Interactive platform will never stop astonishing the quizzer inside you.
+
+
 
