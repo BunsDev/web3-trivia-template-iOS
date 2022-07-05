@@ -53,8 +53,8 @@ An aim to connect people across the world 🤳🏻 and provide them a platform t
 
 ### ***TECHNICAL ASPECTS & FUNCTIONALITIES***
 
-- The android app has been coded in ![](https://img.shields.io/badge/JAVA-informational?style=flat&logo=java&logoColor=white&color=2bbc8a) with designs and flows created on ![](https://img.shields.io/badge/XML-informational?style=flat&logo=XML&logoColor=white&color=2bbc8a) and ![](https://img.shields.io/badge/FIGMA-informational?style=flat&logo=figma&logoColor=white&color=2bbc8a) .
-- Covalent Web3 Trivia uses ![](https://img.shields.io/badge/FIREBASE-informational?style=flat&logo=firebase&logoColor=white&color=2bbc8a) as the database.
+- The Android,iOS And Web Application has been created using ![](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) in ![](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white) as the primary language with designs and flows created on ![](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) .
+- Covalent Web3 Trivia uses ![](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white) as the database.
 - Powered by real-time firebase storage which sync players across the world, add them to a dynamic lobby for each game and store the stats as it proceeds.
 - Highly interactive quizzing modes with neat logic and user-centric UI/UX.
 - Optimized for smooth lobby experience and authenticate data fetching.
@@ -63,9 +63,16 @@ An aim to connect people across the world 🤳🏻 and provide them a platform t
 
 ### ***PUBLISHED SAMPLE***
 Experience the fun of quizzing on Covalent Web3 Trivia!
+
+Android Version
 [Download now](https://play.google.com/store/apps/details?id=com.nbird.covalentweb3trivia) at Google Play Store
 
+Web Version
+[Visit Now](https://blockchaintrivia-8fc26.web.app/#/)
+
 >The most creative way to spend your spare time.🎯🏆 The Interactive platform will never stop astonishing the quizzer inside you.
+
+
 
 
 
