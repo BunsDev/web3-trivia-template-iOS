@@ -9,18 +9,7 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     // Replace with actual values
-    options: FirebaseOptions(
-        apiKey: "AIzaSyCSxzvL_MxHAeH6Alc6rJNwx31Tg47eZIk",
-        authDomain: "blockchaintrivia-8fc26.firebaseapp.com",
-        databaseURL: "https://blockchaintrivia-8fc26-default-rtdb.firebaseio.com",
-        projectId: "blockchaintrivia-8fc26",
-        storageBucket: "blockchaintrivia-8fc26.appspot.com",
-        messagingSenderId: "215069880543",
-        appId: "1:215069880543:web:29415321f7a5dd9b55396a",
-        measurementId: "G-MZ8GE9V80Z"
-    ),
-
-
+    options: DefaultFirebaseOptions.currentPlatform,
   );
  // await Firebase.initializeApp();
   runApp(const MyApp());
