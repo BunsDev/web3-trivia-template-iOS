@@ -1,0 +1,214 @@
+
+{
+  "SETS": [
+    null,
+    {
+      "questions": [
+        null,
+        {
+          "correctAnswer": "Connecting the centralized and decentralized worlds",
+          "option1": "CQT",
+          "option2": "Decentralization ",
+          "option3": "Covalent bonds",
+          "option4": "Connecting the centralized and decentralized worlds",
+          "questionTextView": "What does the company name, 'Covalent' represent in the blockchain industry?",
+          "sets": 1
+        },
+        {
+          "correctAnswer": "2017",
+          "option1": "2016",
+          "option2": "2017",
+          "option3": "2018",
+          "option4": "2019",
+          "questionTextView": "When did the Covalent project officially start?",
+          "sets": 2
+        },
+        {
+          "correctAnswer": "Fast-paced",
+          "option1": "Fast-paced",
+          "option2": "Ownership",
+          "option3": "Relentless",
+          "option4": "Urgency",
+          "questionTextView": "Which of the following is NOT one of the four core values?",
+          "sets": 3
+        },
+        {
+          "correctAnswer": "To bring integrated visibility of digital assets across all blockchain networks",
+          "option1": "To provide rich on-chain and off-chain data",
+          "option2": "To be the decentralized data provider for all Web3",
+          "option3": "To bring integrated visibility of digital assets across all blockchain networks",
+          "option4": "To make CQT holders wealthy",
+          "questionTextView": "Which one of the following is Covalent's mission?",
+          "sets": 4
+        },
+        {
+          "correctAnswer": "Culture and Core Values",
+          "option1": "The Covalent Network",
+          "option2": "The Covalent Query Token",
+          "option3": "Culture and Core Values",
+          "option4": "Customer Onboarding",
+          "questionTextView": "Which of the following is one of the five pillars of growth?",
+          "sets": 5
+        },
+        {
+          "correctAnswer": "All of the above",
+          "option1": "An API",
+          "option2": "The Covalent Network",
+          "option3": "Increment",
+          "option4": "All of the above",
+          "questionTextView": "'What is Covalent's Product?",
+          "sets": 6
+        },
+        {
+          "correctAnswer": "A data middleware solution",
+          "option1": "An infrastructure provider",
+          "option2": "A data middleware solution",
+          "option3": "A multi-chain data solution",
+          "option4": "A free on-chain data API",
+          "questionTextView": "Which of the following best describes Covalent in the blockchain space?",
+          "sets": 7
+        },
+        {
+          "correctAnswer": "CQT",
+          "option1": "COT",
+          "option2": "CQT",
+          "option3": "CTT",
+          "option4": "COVALENT",
+          "questionTextView": "What is the ticker symbol for the Covalent Token?",
+          "sets": 8
+        },
+        {
+          "correctAnswer": "All of the above",
+          "option1": "Indie developers",
+          "option2": "Professional analysts",
+          "option3": "Professional validators",
+          "option4": "All of the above",
+          "questionTextView": "Which of the following is one of Covalent's target user personas?",
+          "sets": 9
+        },
+        {
+          "correctAnswer": "Alchemists",
+          "option1": "Ambassadors",
+          "option2": "Ninjas",
+          "option3": "Alchemists",
+          "option4": "Wizards",
+          "questionTextView": "What are members of the Covalent community called?",
+          "sets": 10
+        },
+        {
+          "correctAnswer": "All of the above",
+          "option1": "We have a governance, staking and rewards token",
+          "option2": "Our primary product is an API",
+          "option3": "Covalent was initially built at a hackathon",
+          "option4": "All of the above",
+          "questionTextView": "Which of the following is true about Covalent",
+          "sets": 11
+        }
+      ]
+    },
+    {
+      "questions": [
+        null,
+        {
+          "correctAnswer": "Read-only data",
+          "option1": "Read-only data",
+          "option2": "Read and sometimes write data",
+          "option3": "Read and write data",
+          "option4": "None of the above - only off-chain data",
+          "questionTextView": "Which of the following is correct for the ability to read data and write transactions to supported blockchain using the Covalent API?",
+          "sets": 1
+        },
+        {
+          "correctAnswer": "0",
+          "option1": "0",
+          "option2": "10",
+          "option3": "100",
+          "option4": "1000",
+          "questionTextView": "How much CQT is required to use the Covalent API?",
+          "sets": 2
+        },
+        {
+          "correctAnswer": "Chain ID",
+          "option1": "Covalent ID",
+          "option2": "Blockchain ID",
+          "option3": "Chain ID",
+          "option4": "Network ID",
+          "questionTextView": "What is the unique network identifier used in the Covalent API for EVM-compatible networks?",
+          "sets": 3
+        },
+        {
+          "correctAnswer": "2",
+          "option1": "1",
+          "option2": "2",
+          "option3": "3",
+          "option4": "4",
+          "questionTextView": "How many different response formats does the Covalent API support?",
+          "sets": 4
+        },
+        {
+          "correctAnswer": "5",
+          "option1": "2",
+          "option2": "5",
+          "option3": "10",
+          "option4": "25",
+          "questionTextView": "On average, how many requests per second per API key can a user expect to successfully make to the Covalent API without errors?",
+          "sets": 5
+        },
+        {
+          "correctAnswer": "2",
+          "option1": "1",
+          "option2": "2",
+          "option3": "3",
+          "option4": "4",
+          "questionTextView": "'API endpoints labelled as 'Real-Time' have a delay of how many blocks?",
+          "sets": 6
+        },
+        {
+          "correctAnswer": "100",
+          "option1": "10",
+          "option2": "50",
+          "option3": "100",
+          "option4": "1000",
+          "questionTextView": "What is the default number of items returned by the Covalent API in a single page?",
+          "sets": 7
+        },
+        {
+          "correctAnswer": "A",
+          "option1": "A",
+          "option2": "B",
+          "option3": "C",
+          "option4": "X",
+          "questionTextView": "The set of endpoints supported across all blockchains and provide a consistent response format are labelled as what class of endpoints?",
+          "sets": 8
+        },
+        {
+          "correctAnswer": "C",
+          "option1": "A",
+          "option2": "B",
+          "option3": "C",
+          "option4": "X",
+          "questionTextView": "The set of endpoints built by the community are labelled as what class of endpoints?",
+          "sets": 9
+        },
+        {
+          "correctAnswer": "B",
+          "option1": "A",
+          "option2": "B",
+          "option3": "C",
+          "option4": "X",
+          "questionTextView": "The set of endpoints supporting specific protocols such as Aave and Uniswap are labelled as what class of endpoints?",
+          "sets": 10
+        },
+        {
+          "correctAnswer": "Analyst",
+          "option1": "Developer",
+          "option2": "Data nerd",
+          "option3": "Increment",
+          "option4": "Analyst",
+          "questionTextView": "In the Covalent API reference, what mode would I use to get data in a tabular format such as in a CSV file?",
+          "sets": 11
+        }
+      ]
+    }
+    ]
+   }
