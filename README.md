@@ -53,13 +53,83 @@ An aim to connect people across the world 🤳🏻 and provide them a platform t
 
 ### ***TECHNICAL ASPECTS & FUNCTIONALITIES***
 
-- The Android,iOS And Web Application has been created using ![](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) in ![](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white) as the primary language with designs and flows created on ![](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) .
-- Covalent Web3 Trivia uses ![](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white) as the database.
+- The Android,iOS And Web Application has been created using `FLUTTER` in `DART` as the primary language with designs and flows created on `FIGMA` .
+- Covalent Web3 Trivia uses `FIREBASE` as the database.
 - Powered by real-time firebase storage which sync players across the world, add them to a dynamic lobby for each game and store the stats as it proceeds.
 - Highly interactive quizzing modes with neat logic and user-centric UI/UX.
 - Optimized for smooth lobby experience and authenticate data fetching.
 - Highly scalable, strong robustness and easy maintenance.
 
+## How to Use 
+
+**Step 1:**
+
+Download or clone this repo by using the link below:
+
+```
+https://github.com/covalenthq/Covalent_Flutter_Trivia.git
+```
+
+**STEP 2:**
+
+#### Setup Flutter Firebase integration
+Check out the [documentation](https://codelabs.developers.google.com/codelabs/flutter-firebase/#4) to setup Flutter Firebase integration.
+
+##### For Android
+In `android/app` folder add your `google-service.json`.
+##### For iOS
+In `ios/Runner` folder add your `GoogleService-Info.plist`.
+
+**STEP 3:**
+
+#### Get the Client ID
+
+* Go to Google Developer Console.
+```
+https://console.cloud.google.com
+```
+<ul>
+ <li>Under "Select a project" on the top, select "Create new project" and fill the details.li>
+ <li>Under "In the dashboard on the left, go to "API & Auth" -> Credentials.>
+ <li>Under "OAuth", click "Create new client ID.>
+ <li>Under "Application type", select "Web application.>
+ <li>Under "Authorized Javascript origins", enter the URL(s) of your website. The "Authorized redirect URLs" are updated automatically>
+ <li>Click "Create client ID".>
+ <li>The new client ID can be accessed any time by going to "Credentials" in the left dashboard. It looks something like this: "3453453452345-dfgjw3456u2094mlfg45p.apps.googleusercontent.com".>
+</ul>
+
+**STEP 4:**
+* Open the Project and go to MainActivity
+
+```
+covalent_trivia_flutter/
+|- lib/
+    |- MainActivity
+```
+* Paste the Client ID generate in Step 3
+
+```
+final GoogleSignIn googleSignIn = GoogleSignIn(clientId: "PASTE THE CLIENT ID HERE");
+```
+
+**STEP 5:**
+* Create the Firebase Database
+* Copy the firebase database URL (DEMO FORMAT : https://blockchaintriviamania-00000-default-rtdb.firebaseio.com/)
+* Open MainActivity and paste the URL, under leaderBoardData() function to access the LeaderBoard.
+
+```
+final needsSnapshot = await FirebaseDatabase.instance.refFromURL("PASTE THE URL HERE/NEW_APP/LeaderBoard").get();
+
+```
+
+**STEP 6:**
+* Upload the the demo JSON File in Firebase Database for trial purpose
+
+```
+covalent_trivia_flutter/
+|- lib/
+    |- DemoJSON
+```
 
 ### ***PUBLISHED SAMPLE***
 Experience the fun of quizzing on Covalent Web3 Trivia!
@@ -73,6 +143,10 @@ Web Version
 >The most creative way to spend your spare time.🎯🏆 The Interactive platform will never stop astonishing the quizzer inside you.
 
 
+
+
+
+ 
 
 
 
