@@ -195,7 +195,7 @@ class _MainActivityState extends State<MainActivity> {
 
  //   final needsSnapshot = await FirebaseDatabase.instance.refFromURL("NEW_APP/LeaderBoard/").get();
 
-    final needsSnapshot = await FirebaseDatabase.instance.refFromURL("https://blockchaintrivia-8fc26-default-rtdb.firebaseio.com/NEW_APP/LeaderBoard").get();
+    final needsSnapshot = await FirebaseDatabase.instance.refFromURL("PASTE THE URL HERE/NEW_APP/LeaderBoard").get();
     if (needsSnapshot.exists) {
 
 
