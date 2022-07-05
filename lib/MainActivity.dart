@@ -669,7 +669,7 @@ class _MainActivityState extends State<MainActivity> {
 
   void signup(BuildContext context, FirebaseAuth auth,LoadingAlertDialog loadingAlertDialog) async {
 
-    final GoogleSignIn googleSignIn = GoogleSignIn(clientId: "215069880543-glu80lvck6ufv135navltp3lls06r826.apps.googleusercontent.com");
+    final GoogleSignIn googleSignIn = GoogleSignIn(clientId: "PASTE THE CLIENT ID HERE");
     final GoogleSignInAccount? googleSignInAccount =
         await googleSignIn.signIn();
     if (googleSignInAccount != null) {
