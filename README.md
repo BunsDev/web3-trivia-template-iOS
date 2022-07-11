@@ -126,19 +126,19 @@ Android Version
 
 **APPLICATION SCREENSHORTS**
 
- <img src="https://play-lh.googleusercontent.com/UbXmt1BMHNzyzZidAhCFliybpZiTNepkweQntyho9MnWcpff5_v3z_9i0kP3YMPKzI4=w1052-h592" width="150px" height="320px">   <img src="https://play-lh.googleusercontent.com/bmxdHdteYsFfuWg1OHVrqLJAYQkMiJw0VICgsfjh4AUlboiZBZL6JPOApDTwKrH66LQ=w1052-h592" width="150px" height="320px">   <img src="https://play-lh.googleusercontent.com/W1VUfTkwP11ATOMgj3e7PbyhtnJ9lmPkON7Ea8nq9CHTixLy55m1pOxwSQwWNu0CVA=w1052-h592" width="150px" height="320px">   <img src="https://play-lh.googleusercontent.com/YmxOK00J0Sm6cvRLcKG_A5c92KHujp1RFiva3dTSXIgaSvjdxDZAR6DKN5symVYnZQ=w1052-h592" width="150px" height="320px"> <img src="https://play-lh.googleusercontent.com/qjdjaB2Xpm1E0_VxxeKOWQJz-0l3lkqQUxTbz8J_6xJOEgjN-d6UL9k83bnQDE5TK3Ag=w1052-h592" width="150px" height="320px"> <img src="https://play-lh.googleusercontent.com/9WSllFKbR2KyF3jx5OSfjlIo9pdwk9l0l4-1pcELW0HFCzio3zp1NuXokVNtIT9maK4=w1052-h592" width="150px" height="320px">
+<!--  <img src="https://play-lh.googleusercontent.com/UbXmt1BMHNzyzZidAhCFliybpZiTNepkweQntyho9MnWcpff5_v3z_9i0kP3YMPKzI4=w1052-h592" width="150px" height="320px">   <img src="https://play-lh.googleusercontent.com/bmxdHdteYsFfuWg1OHVrqLJAYQkMiJw0VICgsfjh4AUlboiZBZL6JPOApDTwKrH66LQ=w1052-h592" width="150px" height="320px">   <img src="https://play-lh.googleusercontent.com/W1VUfTkwP11ATOMgj3e7PbyhtnJ9lmPkON7Ea8nq9CHTixLy55m1pOxwSQwWNu0CVA=w1052-h592" width="150px" height="320px">   <img src="https://play-lh.googleusercontent.com/YmxOK00J0Sm6cvRLcKG_A5c92KHujp1RFiva3dTSXIgaSvjdxDZAR6DKN5symVYnZQ=w1052-h592" width="150px" height="320px"> <img src="https://play-lh.googleusercontent.com/qjdjaB2Xpm1E0_VxxeKOWQJz-0l3lkqQUxTbz8J_6xJOEgjN-d6UL9k83bnQDE5TK3Ag=w1052-h592" width="150px" height="320px"> <img src="https://play-lh.googleusercontent.com/9WSllFKbR2KyF3jx5OSfjlIo9pdwk9l0l4-1pcELW0HFCzio3zp1NuXokVNtIT9maK4=w1052-h592" width="150px" height="320px"> -->
 
 Web Version
 [Visit Now](https://blockchaintrivia-8fc26.web.app/#/)
 
-**FLUTTER WEB SCREENSHORTS**
+<!-- **FLUTTER WEB SCREENSHORTS**
 
-<img src="https://github.com/covalenthq/Covalent_Flutter_Trivia/blob/main/assets/Main%20Activity.png?raw=true"
+ <img src="https://github.com/covalenthq/Covalent_Flutter_Trivia/blob/main/assets/Main%20Activity.png?raw=true"
      width="300px" height="180px"> <img src="https://github.com/covalenthq/Covalent_Flutter_Trivia/blob/main/assets/Quiz%20Layout.png?raw=true"
      width="300px" height="180px"> <img src="https://github.com/covalenthq/Covalent_Flutter_Trivia/blob/main/assets/Audience%20Advice.png?raw=true"
      width="300px" height="180px"> <img src="https://github.com/covalenthq/Covalent_Flutter_Trivia/blob/main/assets/Expert%20Advice.png?raw=true"
      width="300px" height="180px"> <img src="https://github.com/covalenthq/Covalent_Flutter_Trivia/blob/main/assets/Score%20Board.png?raw=true"
-     width="300px" height="180px">	 
+     width="300px" height="180px">	  -->
 		 
 
 >The most creative way to spend your spare time.🎯🏆 The Interactive platform will never stop astonishing the quizzer inside you.
