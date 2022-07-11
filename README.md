@@ -23,7 +23,7 @@ An aim to connect people across the world 🤳🏻 and provide them a platform t
 Download or clone this repo by using the link below:
 
 ```
-https://github.com/covalenthq/Covalent_Flutter_Trivia.git
+https://github.com/covalenthq/Web3_Trivia.git
 ```
 
 **STEP 2:**
