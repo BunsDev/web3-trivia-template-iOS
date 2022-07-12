@@ -40,11 +40,13 @@ In `ios/Runner` folder add your `GoogleService-Info.plist`.
 
 #### Get the Client ID
 
-* Go to Google Developer Console.
+* Go to Google Developer Console and get the Client ID.
 ```
 https://console.cloud.google.com
 ```
-<ul>
+Check out the [documentation](https://developers.google.com/adwords/api/docs/guides/authentication)
+
+<!-- <ul>
  <li>Under "Select a project" on the top, select "Create new project" and fill the details.li>
  <li>Under "In the dashboard on the left, go to "API & Auth" -> Credentials.>
  <li>Under "OAuth", click "Create new client ID.>
@@ -52,7 +54,7 @@ https://console.cloud.google.com
  <li>Under "Authorized Javascript origins", enter the URL(s) of your website. The "Authorized redirect URLs" are updated automatically>
  <li>Click "Create client ID".>
  <li>The new client ID can be accessed any time by going to "Credentials" in the left dashboard. It looks something like this: "3453453452345-dfgjw3456u2094mlfg45p.apps.googleusercontent.com".>
-</ul>
+</ul> -->
 
 **STEP 4:**
 * Open the Project and go to MainActivity
