@@ -45,38 +45,14 @@ Create your own web and mobile trivia app in just minutes using this full-featur
 &nbsp;
 ## Features & Modes
 
-<<<<<<< Updated upstream
 #### Setup Flutter Firebase integration
 Check out the [documentation](https://firebase.google.com/learn/pathways/firebase-flutter) to setup Flutter Firebase integration.
-=======
-- 📱 Mobile first: Created using [Flutter](https://flutter.dev/) and natively supports Android, iOS and Web platforms.
->>>>>>> Stashed changes
 
 - 📊 Scalable, professional-grade database: Powered by [Firebase](https://firebase.google.com/docs).
 
 - 📈 Leaderboard: Analyze, Track, Learn, and Grow! Keep an eye on your progress and self-evaluation!
 
 - 💌 Lifelines: Four vivid sets of lifelines to help and guide you including: Poll, 50-50, Swap and Expert!
-
-<<<<<<< Updated upstream
-* Go to Google Developer Console and get the Client ID to access the Google authentication in Flutter Web.
-```
-https://console.cloud.google.com
-```
-Check out the [documentation](https://developers.google.com/adwords/api/docs/guides/authentication)
-
-<!-- <ul>
- <li>Under "Select a project" on the top, select "Create new project" and fill the details.li>
- <li>Under "In the dashboard on the left, go to "API & Auth" -> Credentials.>
- <li>Under "OAuth", click "Create new client ID.>
- <li>Under "Application type", select "Web application.>
- <li>Under "Authorized Javascript origins", enter the URL(s) of your website. The "Authorized redirect URLs" are updated automatically>
- <li>Click "Create client ID".>
- <li>The new client ID can be accessed any time by going to "Credentials" in the left dashboard. It looks something like this: "3453453452345-dfgjw3456u2094mlfg45p.apps.googleusercontent.com".>
-</ul> -->
-=======
-- 🎮 Single Mode: Test your knowledge, practice, and compete against time. Score points for accuracy. Achieve ranks and high levels!
->>>>>>> Stashed changes
 
 - 🖼️ Picture Quiz: Test your visual skills and ace your pictorial predictions.
 
