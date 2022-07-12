@@ -1,45 +1,64 @@
-# **Covalent Web3 Trivia**
-> Covalent Web3 Trivia : Single-Player Quizzers For Web3 And The Covalent Ecosystem.
-<img src="https://play-lh.googleusercontent.com/FoyS9HkImE0Qo1PMyvEF21Ima9b55GbI5k9xNalAwXE4AXeF9fjXphh6XwSCCyTC-hY=w480-h960" width="100px" height="100px">
+# Web3 Trivia Template
+Create your own web and mobile trivia app in just minutes using this full-feature template built using your favourite gameplay features such as:
+* Video, audio and text question formats
+* Leaderboards
+* Player analytics
+* Lifelines
 
+&nbsp;
+## Live Demo
+- **Android:** https://play.google.com/store/apps/details?id=com.nbird.covalentweb3trivia
+- **Web:** https://blockchaintrivia-8fc26.web.app
 
-## ***INTRODUCTION***
+&nbsp;
+## Quick Start
 
-Welcome! ❤
+1. Fork this repo.
 
-Covalent presents The Ultimate Quiz Station Of Web3.
+2. Add and customize your quiz questions (in JSON format) in `trivia-questions/questions.json`.
 
-An aim to connect people across the world 🤳🏻 and provide them a platform to learn Web3 . 💞
+3. Create a new project in [Firebase](https://cloud.google.com/firestore/docs/client/get-firebase).
 
+4. Add Firebase to your project (Android, iOS, and/or Web). 
+    - For Android, you will need to download and copy over the `google-services.json` file to `android/app`
+    - For iOS, you will need to download and copy over the `GoogleService-Info.plist` file to `ios/runner`
 
-⭐⭐🌟⭐⭐
+5. Set up a Realtime Database for your project in Firebase. Copy the database URL. 
 
+6. In `lib/MainActivity.dart`, find the following line and paste the database URL:
+    ```
+    final needsSnapshot = await FirebaseDatabase.instance.refFromURL("PASTE THE URL HERE/NEW_APP/LeaderBoard").get()
+    ```
 
+7. Upload the `/trivia-questions/questions.json` file to your Firebase database.
 
-## How to Use 
+8. Go to the Google Developer Console to get a app specific `Client ID` for Google authentication
 
-**Step 1:**
+9. In `lib/MainActivity.dart`, find the following line and paste in your Client ID from the previous step:
 
-Download or clone this repo by using the link below:
+    ```
+    final GoogleSignIn googleSignIn = GoogleSignIn(clientId: "PASTE THE CLIENT ID HERE");
+    ```
 
-```
-https://github.com/covalenthq/Web3_Trivia.git
-```
+10. Run and test the app using your Android or iOS emulator. 
 
-**STEP 2:**
+&nbsp;
+## Features & Modes
 
+<<<<<<< Updated upstream
 #### Setup Flutter Firebase integration
 Check out the [documentation](https://firebase.google.com/learn/pathways/firebase-flutter) to setup Flutter Firebase integration.
+=======
+- 📱 Mobile first: Created using [Flutter](https://flutter.dev/) and natively supports Android, iOS and Web platforms.
+>>>>>>> Stashed changes
 
-##### For Android
-In `android/app` folder add your `google-service.json`.
-##### For iOS
-In `ios/Runner` folder add your `GoogleService-Info.plist`.
+- 📊 Scalable, professional-grade database: Powered by [Firebase](https://firebase.google.com/docs).
 
-**STEP 3:**
+- 📈 Leaderboard: Analyze, Track, Learn, and Grow! Keep an eye on your progress and self-evaluation!
 
-#### Get the Client ID
+- 💌 Lifelines: Four vivid sets of lifelines to help and guide you including: Poll, 50-50, Swap and Expert!
 
+<<<<<<< Updated upstream
 * Go to Google Developer Console and get the Client ID to access the Google authentication in Flutter Web.
 ```
 https://console.cloud.google.com
@@ -55,101 +74,21 @@ Check out the [documentation](https://developers.google.com/adwords/api/docs/gui
  <li>Click "Create client ID".>
  <li>The new client ID can be accessed any time by going to "Credentials" in the left dashboard. It looks something like this: "3453453452345-dfgjw3456u2094mlfg45p.apps.googleusercontent.com".>
 </ul> -->
+=======
+- 🎮 Single Mode: Test your knowledge, practice, and compete against time. Score points for accuracy. Achieve ranks and high levels!
+>>>>>>> Stashed changes
 
-**STEP 4:**
-* Open the Project and go to MainActivity
+- 🖼️ Picture Quiz: Test your visual skills and ace your pictorial predictions.
 
-```
-covalent_trivia_flutter/
-|- lib/
-    |- MainActivity
-```
-* Paste the Client ID generate in Step 3
+- 🥁 Audio & Video: Add multimedia quiz questions including: sounds, songs, video clips, and more.
 
-```
-final GoogleSignIn googleSignIn = GoogleSignIn(clientId: "PASTE THE CLIENT ID HERE");
-```
+&nbsp;
+<a href="https://play.google.com/store/apps/details?id=com.nbird.covalentweb3trivia"><img src="https://play-lh.googleusercontent.com/yvMUS3_tE6z5yR7onWKYq-q3ZF9j8uxdtVnRymfw7jIVR8f-DshAPy8RlpL-kWgSXIt0=w832-h470"></a>
 
-**STEP 5:**
-* Create the Firebase Database
-* Copy the firebase database URL (DEMO FORMAT : https://blockchaintriviamania-00000-default-rtdb.firebaseio.com/)
-* Open MainActivity and paste the URL, under leaderBoardData() function to access the LeaderBoard.
+&nbsp;
+## Feedback & Support
+We love our community and want to help *everyone* build in web3 :muscle:
 
-```
-final needsSnapshot = await FirebaseDatabase.instance.refFromURL("PASTE THE URL HERE/NEW_APP/LeaderBoard").get();
-
-```
-
-**STEP 6:**
-* Upload the the demo JSON File in Firebase Database for trial purpose
-
-```
-covalent_trivia_flutter/
-|- lib/
-    |- DemoJSON
-```
-### ***TECHNICAL ASPECTS & FUNCTIONALITIES***
-
-- The Android,iOS And Web Application has been created using `FLUTTER` in `DART` as the primary language with designs and flows created on `FIGMA` .
-- Covalent Web3 Trivia uses `FIREBASE` as the database.
-- Powered by real-time firebase storage which sync players across the world, add them to a dynamic lobby for each game and store the stats as it proceeds.
-- Highly interactive quizzing modes with neat logic and user-centric UI/UX.
-- Optimized for smooth lobby experience and authenticate data fetching.
-- Highly scalable, strong robustness and easy maintenance.
-
-
-## ***🔮QUIZ MODES*** 
-
-🎮 Single Mode: Test your knowledge, practice, and compete against time. Score points for accuracy. Achieve ranks and high levels!
-
-🖼️Picture Quiz: Test your visual skills and ace your pictorial predictions with Covalent Web3 Trivia.
-
-🥁Audio & Video: The ultimate test of senses. A knowledgeable and alert mind rules. Fight and make your way up! Song, Movies, Entertainment, Sounds, and many more!
-
-
-<img src="https://play-lh.googleusercontent.com/yvMUS3_tE6z5yR7onWKYq-q3ZF9j8uxdtVnRymfw7jIVR8f-DshAPy8RlpL-kWgSXIt0=w832-h470">
-
-## ***FEATURES*** 
-
-📈 Leaderboard: Analyze, Track, Learn, and Grow! Keep an eye on your progress and self-evaluation!
-
-📊Insatiable database: Sample Database to test the app with . Test & Boost your General Knowledge. Improve concentration and memory!
-
-💌Lifelines: Four vivid sets of lifelines to help and guide you. Poll, 50-50, Swap and Expert!
-
-⭐⭐🌟⭐⭐
-
-
-### ***PUBLISHED SAMPLE***
-Experience the fun of quizzing on Covalent Web3 Trivia!
-
-Android Version
-[Download now](https://play.google.com/store/apps/details?id=com.nbird.covalentweb3trivia) at Google Play Store
-
-**APPLICATION SCREENSHORTS**
-
-<!--  <img src="https://play-lh.googleusercontent.com/UbXmt1BMHNzyzZidAhCFliybpZiTNepkweQntyho9MnWcpff5_v3z_9i0kP3YMPKzI4=w1052-h592" width="150px" height="320px">   <img src="https://play-lh.googleusercontent.com/bmxdHdteYsFfuWg1OHVrqLJAYQkMiJw0VICgsfjh4AUlboiZBZL6JPOApDTwKrH66LQ=w1052-h592" width="150px" height="320px">   <img src="https://play-lh.googleusercontent.com/W1VUfTkwP11ATOMgj3e7PbyhtnJ9lmPkON7Ea8nq9CHTixLy55m1pOxwSQwWNu0CVA=w1052-h592" width="150px" height="320px">   <img src="https://play-lh.googleusercontent.com/YmxOK00J0Sm6cvRLcKG_A5c92KHujp1RFiva3dTSXIgaSvjdxDZAR6DKN5symVYnZQ=w1052-h592" width="150px" height="320px"> <img src="https://play-lh.googleusercontent.com/qjdjaB2Xpm1E0_VxxeKOWQJz-0l3lkqQUxTbz8J_6xJOEgjN-d6UL9k83bnQDE5TK3Ag=w1052-h592" width="150px" height="320px"> <img src="https://play-lh.googleusercontent.com/9WSllFKbR2KyF3jx5OSfjlIo9pdwk9l0l4-1pcELW0HFCzio3zp1NuXokVNtIT9maK4=w1052-h592" width="150px" height="320px"> -->
-
-Web Version
-[Visit Now](https://blockchaintrivia-8fc26.web.app/#/)
-
-<!-- **FLUTTER WEB SCREENSHORTS**
-
- <img src="https://github.com/covalenthq/Covalent_Flutter_Trivia/blob/main/assets/Main%20Activity.png?raw=true"
-     width="300px" height="180px"> <img src="https://github.com/covalenthq/Covalent_Flutter_Trivia/blob/main/assets/Quiz%20Layout.png?raw=true"
-     width="300px" height="180px"> <img src="https://github.com/covalenthq/Covalent_Flutter_Trivia/blob/main/assets/Audience%20Advice.png?raw=true"
-     width="300px" height="180px"> <img src="https://github.com/covalenthq/Covalent_Flutter_Trivia/blob/main/assets/Expert%20Advice.png?raw=true"
-     width="300px" height="180px"> <img src="https://github.com/covalenthq/Covalent_Flutter_Trivia/blob/main/assets/Score%20Board.png?raw=true"
-     width="300px" height="180px">	  -->
-		 
-
->The most creative way to spend your spare time.🎯🏆 The Interactive platform will never stop astonishing the quizzer inside you.
-
-
-
-
-
- 
-
-
-
+If you:
+- Find bugs or issues with this template, please raise an [Issue](https://github.com/covalenthq/web3-templates/issues). Better yet, identify a fix and create a [PR](https://github.com/covalenthq/web3-resources/pulls) :smile:
+- Need any support with using the template, message us in our [Discord](https://covalenthq.com/discord) in the `#feedback-and-support` channel
