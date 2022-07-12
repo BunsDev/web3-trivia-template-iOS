@@ -29,7 +29,7 @@ https://github.com/covalenthq/Web3_Trivia.git
 **STEP 2:**
 
 #### Setup Flutter Firebase integration
-Check out the [documentation](https://codelabs.developers.google.com/codelabs/flutter-firebase/#4) to setup Flutter Firebase integration.
+Check out the [documentation](https://firebase.google.com/learn/pathways/firebase-flutter) to setup Flutter Firebase integration.
 
 ##### For Android
 In `android/app` folder add your `google-service.json`.
