@@ -40,7 +40,7 @@ In `ios/Runner` folder add your `GoogleService-Info.plist`.
 
 #### Get the Client ID
 
-* Go to Google Developer Console and get the Client ID.
+* Go to Google Developer Console and get the Client ID to access the Google authentication in Flutter Web.
 ```
 https://console.cloud.google.com
 ```
