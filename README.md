@@ -25,6 +25,8 @@ Create your own web and mobile trivia app in just minutes using this full-featur
 
 5. Set up a Realtime Database for your project in Firebase. Copy the database URL. 
 
+<img src="https://play-lh.googleusercontent.com/JZcYjvrFt3ptrII9YETRImLjpJx2Xt6tGdJc5VHfA8vIdkvZVWR7xsMmRST4DiNXfw=w1536-h722-rw" width="150px" height="320px">
+
 6. In `lib/MainActivity.dart`, find the following line and paste the database URL:
     ```
     final needsSnapshot = await FirebaseDatabase.instance.refFromURL("PASTE THE URL HERE/NEW_APP/LeaderBoard").get()
