@@ -25,7 +25,8 @@ Create your own web and mobile trivia app in just minutes using this full-featur
 
 5. Set up a Realtime Database for your project in Firebase. Copy the database URL. 
 
-<img src="https://play-lh.googleusercontent.com/JZcYjvrFt3ptrII9YETRImLjpJx2Xt6tGdJc5VHfA8vIdkvZVWR7xsMmRST4DiNXfw=w1536-h722-rw" width="150px" height="320px">
+   <img src="https://github.com/covalenthq/web3-trivia-template/blob/a8d570e21385d51642830e0f90e25d259c4a2943/assets/Step5.png" width="500px" height="250px">
+   
 
 6. In `lib/MainActivity.dart`, find the following line and paste the database URL:
     ```
@@ -34,7 +35,13 @@ Create your own web and mobile trivia app in just minutes using this full-featur
 
 7. Upload the `/trivia-questions/questions.json` file to your Firebase database.
 
+   <img src="https://github.com/covalenthq/web3-trivia-template/blob/a8d570e21385d51642830e0f90e25d259c4a2943/assets/Step7_1.png" width="500px" height="250px">
+   <img src="https://github.com/covalenthq/web3-trivia-template/blob/a8d570e21385d51642830e0f90e25d259c4a2943/assets/Step7_2.png" width="500px" height="250px">
+
+
 8. Go to the Google Developer Console to get a app specific `Client ID` for Google authentication
+
+  <img src="https://github.com/covalenthq/web3-trivia-template/blob/a8d570e21385d51642830e0f90e25d259c4a2943/assets/Step8.png" width="500px" height="250px">
 
 9. In `lib/MainActivity.dart`, find the following line and paste in your Client ID from the previous step:
 
