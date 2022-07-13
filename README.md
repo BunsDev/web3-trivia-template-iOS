@@ -41,7 +41,7 @@ Create your own web and mobile trivia app in just minutes using this full-featur
 
 8. Go to the Google Developer Console to get a app specific `Client ID` for Google authentication
 
-  <img src="https://github.com/covalenthq/web3-trivia-template/blob/a8d570e21385d51642830e0f90e25d259c4a2943/assets/Step8.png" width="500px" height="250px">
+   <img src="https://github.com/covalenthq/web3-trivia-template/blob/a8d570e21385d51642830e0f90e25d259c4a2943/assets/Step8.png" width="500px" height="250px">
 
 9. In `lib/MainActivity.dart`, find the following line and paste in your Client ID from the previous step:
 
